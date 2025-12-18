@@ -1,0 +1,1 @@
+# kubernetes_sql_single_statefulset
