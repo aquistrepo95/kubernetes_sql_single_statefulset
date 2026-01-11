@@ -27,7 +27,7 @@ spec:
         configMap:
           name: gettingstarted-configvals-sql        
       containers:
-      - image: getstartedappsql:0.0.1
+      - image: mysql:8.0
         name: getstartedappsql
         env: 
         - name: MYSQL_ROOT_PASSWORD_FILE
